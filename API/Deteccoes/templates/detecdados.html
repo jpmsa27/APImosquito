@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>teste2</title>
+</head>
+<body>
+    <table>
+        <tr>
+            <thead>ID</thead>
+            <thead>Estado</thead>
+            <thead>Municipio</thead>
+            <thead>Bairro</thead>
+            <thead>Detecção</thead>
+            <thead>Data e Hora</thead>
+        </tr>
+    {% if detec %}
+    {% for detec in detec %}
+        <tr>
+            <td>{{ detec.Id_sensor }}</td>
+            <td>{{ detec.Estado_sensor }}</td>
+            <td>{{ detec.Municipio_sensor }}</td>
+            <td>{{ detec.Bairro_sensor }}</td>
+            <td>{{ detec.Deteccao_sensor }}</td>
+            <td>{{ detec.DataHora_sensor }}</td>
+        </tr>
+        {% endfor %}
+        {% endif %}
+    </table>
+</body>
+</html>

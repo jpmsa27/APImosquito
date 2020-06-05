@@ -1,0 +1,138 @@
+header{
+    background-color: black;
+    height: 64px;
+    position: relative;
+}
+.logo img{
+    max-width: 200px;
+    margin-top: 5px;
+    margin-left: 20px;
+    display: inline-block;
+    position: absolute;
+    align-items: center;
+}
+div.logo{
+    display: inline-block;
+    position: absolute;
+    align-self: center;
+}
+.home li{
+    margin-top: 18px;
+    display: inline-block;
+    list-style: none;
+    padding-right: 10px;
+}
+div.home{
+    text-align: right;
+    padding-right: 30px;
+}
+div.home li a{
+    font-size: 30px;
+    display: inline-block;
+    position: relative;
+    text-decoration: none;
+    color: white;
+    align-items: center;
+}
+img.comp{
+    max-height: 50px;
+    margin-left: 215px;
+}
+img.comp2{
+    max-height: 50px;
+    margin-left: 215px;
+    animation-iteration-count: infinite;
+
+    -webkit-animation: rodaroda 3s linear alternate 3;
+    -moz-animation: rodaroda 3.0s linear infinite;
+    -ms-animation: rodaroda 3.0s linear infinite;
+    -o-animation: rodaroda 3.0s linear infinite;
+    animation: rodaroda 3.0s linear infinite;
+}
+footer{
+    background-color: black;
+    height: 179px;
+    bottom: 0;
+    width: 100%;
+    position: relative;
+    
+}
+html, body{
+    height: 100%;
+}
+.geral{
+    min-height: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.logofooter img{
+    max-height: 50px;
+    max-width: 200px;
+    margin-left: 20px;
+    margin-top: 20px;
+    display: inline-block;
+    position: absolute;
+    align-self: center;
+}
+img.compfooter{
+    margin-left: 215px;
+    max-height: 50px;
+}
+img.comp2footer{
+    max-height: 50px;
+    margin-left: 215px;
+    animation-iteration-count: infinite;
+
+    -webkit-animation: rodaroda 3s linear alternate 3;
+    -moz-animation: rodaroda 3.0s linear infinite;
+    -ms-animation: rodaroda 3.0s linear infinite;
+    -o-animation: rodaroda 3.0s linear infinite;
+    animation: rodaroda 3.0s linear infinite;
+}
+div.homefooter{
+    padding-top: 20px;
+    margin-left: 300px;
+    padding-right: 30px;
+}
+div.homefooter li a{
+    padding-top: 10px;
+    font-size: 20px;
+    display: inline-block;
+    position: relative;
+    text-decoration: none;
+    color: white;
+    align-items: center;
+}
+
+@-webkit-keyframes rodaroda {
+	0% { -webkit-transform:rotate(0deg); -moz-transform:rotate(0deg); -ms-transform:rotate(0deg); -o-transform:rotate(0deg); transform:rotate(0deg); }
+	50% { -webkit-transform:rotate(180deg); -moz-transform:rotate(180deg); -ms-transform:rotate(180deg); -o-transform:rotate(180deg); transform:rotate(180deg); }
+	100% { -webkit-transform:rotate(360deg); -moz-transform:rotate(360deg); -ms-transform:rotate(360deg); -o-transform:rotate(360deg); transform:rotate(360deg); }
+}
+@-moz-keyframes rodaroda {
+	0% { -webkit-transform:rotate(0deg); -moz-transform:rotate(0deg); -ms-transform:rotate(0deg); -o-transform:rotate(0deg); transform:rotate(0deg); }
+	50% { -webkit-transform:rotate(180deg); -moz-transform:rotate(180deg); -ms-transform:rotate(180deg); -o-transform:rotate(180deg); transform:rotate(180deg); }
+	100% { -webkit-transform:rotate(360deg); -moz-transform:rotate(360deg); -ms-transform:rotate(360deg); -o-transform:rotate(360deg); transform:rotate(360deg); }
+}
+@-ms-keyframes rodaroda {
+	0% { -webkit-transform:rotate(0deg); -moz-transform:rotate(0deg); -ms-transform:rotate(0deg); -o-transform:rotate(0deg); transform:rotate(0deg); }
+	50% { -webkit-transform:rotate(180deg); -moz-transform:rotate(180deg); -ms-transform:rotate(180deg); -o-transform:rotate(180deg); transform:rotate(180deg); }
+	100% { -webkit-transform:rotate(360deg); -moz-transform:rotate(360deg); -ms-transform:rotate(360deg); -o-transform:rotate(360deg); transform:rotate(360deg); }
+}
+@-o-keyframes rodaroda {
+	0% { -webkit-transform:rotate(0deg); -moz-transform:rotate(0deg); -ms-transform:rotate(0deg); -o-transform:rotate(0deg); transform:rotate(0deg); }
+	50% { -webkit-transform:rotate(180deg); -moz-transform:rotate(180deg); -ms-transform:rotate(180deg); -o-transform:rotate(180deg); transform:rotate(180deg); }
+	100% { -webkit-transform:rotate(360deg); -moz-transform:rotate(360deg); -ms-transform:rotate(360deg); -o-transform:rotate(360deg); transform:rotate(360deg); }
+}
+@keyframes rodaroda {
+	0% { -webkit-transform:rotate(0deg); -moz-transform:rotate(0deg); -ms-transform:rotate(0deg); -o-transform:rotate(0deg); transform:rotate(0deg); }
+	50% { -webkit-transform:rotate(180deg); -moz-transform:rotate(180deg); -ms-transform:rotate(180deg); -o-transform:rotate(180deg); transform:rotate(180deg); }
+	100% { -webkit-transform:rotate(360deg); -moz-transform:rotate(360deg); -ms-transform:rotate(360deg); -o-transform:rotate(360deg); transform:rotate(360deg); }
+}
+.algo{
+    width: 1000px;
+    height: 400px;
+    background-color: midnightblue;
+}

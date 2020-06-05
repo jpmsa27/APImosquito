@@ -1,0 +1,11 @@
+body{
+    width: auto;
+    height: auto;
+}
+div{
+    background-color: black;
+    width: auto;
+    height: auto;
+    display: inline-block;
+    position: relative;
+}
